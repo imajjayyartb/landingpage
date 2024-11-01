@@ -889,7 +889,7 @@
   .form-container {
     position: fixed;
     /* Fix the position for larger screens */
-    top: 4px;
+    top: -10px;
     /* Adjust top positioning */
     right: 20px;
     /* Adjust right positioning */
@@ -950,7 +950,7 @@
   overflow-y: auto; 
 }
 
-.header-nav {
+/* .header-nav {
 margin-left: auto;
 }
 
@@ -963,7 +963,7 @@ flex-direction: column;
 .header-nav ul {
     display: block; 
 }
-}
+} */
 
 
 /* Overlay Styles */
@@ -1125,4 +1125,36 @@ border-radius: 5px;
   }
 
 
+}
+
+
+.form-container {
+    max-height: 100vh; 
+    overflow-y: auto;
+    padding: 20px; /* Adds padding for a spacious feel */
+   
+    border-radius: 8px; /* Soft, rounded corners */
+   
+}
+
+/* Custom scrollbar styling */
+.form-container::-webkit-scrollbar {
+    width: 8px; /* Narrower scrollbar */
+}
+
+.form-container::-webkit-scrollbar-track {
+    background: #e0e0e0; /* Light background for scrollbar track */
+    border-radius: 4px; /* Rounded track corners */
+}
+
+.form-container::-webkit-scrollbar-thumb {
+    background-color: #a8a8a8; /* Subtle color for scrollbar thumb */
+    border-radius: 4px; /* Rounded thumb corners */
+    border: 2px solid #e0e0e0; /* Adds padding around thumb */
+}
+
+/* Firefox scrollbar styling */
+.form-container {
+    scrollbar-width: thin; /* Makes scrollbar thinner */
+    scrollbar-color: #a8a8a8 #e0e0e0; /* Thumb color and track color */
 }
