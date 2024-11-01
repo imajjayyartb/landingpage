@@ -1068,4 +1068,61 @@ border-radius: 5px;
 
 
 
+@media (min-width: 1024px) and (max-width: 1400px) {
 
+  .reason_header h2 {
+    color: #000;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 80px;
+  }
+
+
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    gap: 25px;
+    justify-items: center;
+  }
+
+  .reason-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 300px;
+    background: linear-gradient(360deg, #4a90e2, #2a6fdb);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 0 10px;
+    
+  }
+
+
+
+  
+  .integration-section {
+    width: 60.4%;
+    padding: 20px 50px 94px;
+  }
+
+  .integration-container h1 {
+    text-align: left;
+    color: #554f67;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10%;
+  }
+
+  .logo-slider {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 30px;
+    width: 50%;
+  }
+
+
+}
