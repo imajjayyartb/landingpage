@@ -680,6 +680,14 @@
 }
 
 /* Footer Styles */
+
+.copyright{
+  padding-left: 50px;
+  padding-top:10px;
+  background-color: #fff;
+
+}
+
 .footer-section {
   background: linear-gradient(180deg, #4a90e2, #2a6fdb);
   color: #fff;
@@ -700,6 +708,19 @@
   font-size: 22px;
   line-height: 33px;
 }
+
+
+
+.contact{
+  display: flex;
+  gap:10px;
+}
+.para a {
+  text-decoration: none;
+  color:#007bff ;
+
+}
+
 
 /* Mobile Responsive Code */
 @media (max-width: 768px) {
@@ -863,7 +884,15 @@
   .footer_text p {
     font-size: 22px;
   }
+
+  /* copy right styling */
+  .copyright_text  {
+    text-align: center;
+  
+  }
 }
+
+
 
 
 .bg-white {
@@ -1067,7 +1096,7 @@ border-radius: 5px;
 }
 
 
-
+/* 13 to 14 inch screen */
 @media (min-width: 1024px) and (max-width: 1400px) {
 
   .reason_header h2 {
